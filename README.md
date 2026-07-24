@@ -20,4 +20,16 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/Ellie-Aghajani/LeetCode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Ellie-Aghajani/LeetCode/tree/master/0509-fibonacci-number) |
+## Array
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Ellie-Aghajani/LeetCode/tree/master/0088-merge-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Ellie-Aghajani/LeetCode/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Ellie-Aghajani/LeetCode/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
