@@ -5,6 +5,7 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
+ //Brute force (copy + sort)
 var merge = function(nums1, m, nums2, n) {
         for (let i = 0; i < n; i++) {
         nums1[i + m] = nums2[i];
