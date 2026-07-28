@@ -16,3 +16,12 @@ var fib = function(n) {
 
     return helper(n);
 };
+// const cache = new Map([[0, 0], [1, 1]]);
+
+// var fib = function(N) {
+//     if (cache.has(N)) {
+//         return cache.get(N);
+//     }
+//     cache.set(N, fib(N - 1) + fib(N - 2));
+//     return cache.get(N);
+// };
