@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {number}
  */
-
+//4
 var fib = function(n) {
     if (n <= 1) {
         return n;
@@ -23,6 +23,7 @@ var fib = function(n) {
     return f[n];
 };
 
+//3
 // var fib = function(n){
 //     let dp = [0,1];
 //     for(let i=2; i<=n; i++){
@@ -31,6 +32,7 @@ var fib = function(n) {
 //     return dp[n];
 // }
 
+//2
 // var fib = function(n) {
 //     const memo = new Map();
 
@@ -46,6 +48,7 @@ var fib = function(n) {
 //     return helper(n);
 // };
 
+//1
 // const cache = new Map([[0, 0], [1, 1]]);
 
 // var fib = function(N) {
