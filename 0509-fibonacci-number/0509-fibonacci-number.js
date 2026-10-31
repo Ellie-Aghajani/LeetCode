@@ -2,13 +2,34 @@
  * @param {number} n
  * @return {number}
  */
-var fib = function(n){
-    let dp = [0,1];
-    for(let i=2; i<=n; i++){
-        dp[i] = dp[i-1] + dp[i-2];
+
+var fib = function(n) {
+    if (n <= 1) {
+        return n;
     }
-    return dp[n];
-}
+
+    // Declare an array to store Fibonacci numbers
+    const f = new Array(n + 1); // 1 extra to handle case, n = 0
+
+    // 0th and 1st numbers of the series are 1
+    f[0] = 0;
+    f[1] = 1;
+
+    for (let i = 2; i <= n; i++) {
+        // Add the previous 2 numbers in the series and store it
+        f[i] = f[i - 1] + f[i - 2];
+    }
+
+    return f[n];
+};
+
+// var fib = function(n){
+//     let dp = [0,1];
+//     for(let i=2; i<=n; i++){
+//         dp[i] = dp[i-1] + dp[i-2];
+//     }
+//     return dp[n];
+// }
 
 // var fib = function(n) {
 //     const memo = new Map();
